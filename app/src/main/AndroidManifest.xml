@@ -25,6 +25,11 @@
             android:label="Google"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".FacebookActivity"
+            android:label="Facebook"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

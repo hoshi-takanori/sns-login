@@ -18,5 +18,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, GoogleActivity.class));
             }
         });
+
+        findViewById(R.id.facebook).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, FacebookActivity.class));
+            }
+        });
     }
 }
