@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SNS Login</string>
+
+    <string name="facebook_app_id">YOUR_APP_ID</string>
 </resources>
